@@ -1,0 +1,105 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+    background-color: rgba(0,178,178,0.3);
+}
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+.color_grey {
+    color: #ccc;
+}
+.margin_top {
+    margin-top: 20px;
+}
+/*Nav bar*/
+.nav_avatar{
+    height: 40px;
+    background: #fff;
+    margin: 5px 5px;
+}
+.navbar-default {
+    background-color: #00B2B2;
+    border: 0px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active {
+    color: #FFF;
+    background-color: #0BA0A0;
+}
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-brand:focus {
+    color: #DACECE;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: rgb(11, 160, 160);
+}
+
+/*Content*/
+.all_comments ul:first-child {
+    padding-left: 0px;
+}
+.all_comments ul li{
+    list-style: none;
+}
+.all_comments ul li div{
+    border: 1px solid #F9E6E6;
+    background-color: #F9F5F5;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+.all_comments ul li p a{
+    border-bottom: 1px dotted;
+    padding-bottom: 4px;
+}
+.all_comments ul li p a:hover,
+.all_comments ul li p a:active {
+    text-decoration: none;
+}
+.half {
+    width: 75px;
+    display: inline-block;
+}
+.half a {
+    color: #999;
+}
+.half a:hover,
+.half a:active {
+    color: #ccc;
+}
